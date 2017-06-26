@@ -13,3 +13,7 @@ $(function(){
   });
 
 });
+
+$(function() {
+  $("#time").text(moment());
+});
